@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        // Redirect /show/123.html to index.html#show=123
+        const path = window.location.pathname;
+        const articleMatch = path.match(/\/show\/(\d+)\.html$/);
+        
+        if (articleMatch) {
+            window.location.href = `/index.html#show=${articleMatch[1]}`;
+        } else {
+            window.location.href = '/index.html';
+        }
+    </script>
+</head>
+<body>
+    <p>جاري التوجيه...</p>
+</body>
+</html>

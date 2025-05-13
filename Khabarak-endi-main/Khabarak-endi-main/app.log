@@ -1,0 +1,36 @@
+2025-04-05 14:46:29,996 - news_aggregator - INFO - Database setup completed
+2025-04-05 14:46:29,997 - news_aggregator - INFO - Initialized 6 news sources
+2025-04-05 14:46:29,998 - news_aggregator - INFO - Starting news aggregation process
+2025-04-05 14:46:29,998 - news_aggregator - INFO - Scraping 24 بوست at https://www.24-post.com/
+2025-04-05 14:46:30,933 - news_aggregator - INFO - Successfully scraped 0 articles from 24 بوست
+2025-04-05 14:46:35,934 - news_aggregator - INFO - Scraping أنباء عدن at https://www.anbaaden.com/
+2025-04-05 14:46:55,859 - news_aggregator - ERROR - Error scraping أنباء عدن: 522 Server Error: <none> for url: https://www.anbaaden.com/
+2025-04-05 14:47:00,861 - news_aggregator - INFO - Scraping كريتر سكاي at https://cratersky.net/
+2025-04-05 14:47:01,933 - news_aggregator - INFO - Successfully scraped 41 articles from كريتر سكاي
+2025-04-05 14:47:01,952 - news_aggregator - INFO - Stored 41 new articles in database
+2025-04-05 14:47:06,953 - news_aggregator - INFO - Scraping نيوز لاين at https://newslineyemen.com/
+2025-04-05 14:47:06,965 - news_aggregator - ERROR - Error scraping نيوز لاين: HTTPSConnectionPool(host='newslineyemen.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A6CA07EFD0>: Failed to resolve 'newslineyemen.com' ([Errno 11001] getaddrinfo failed)"))
+2025-04-05 14:47:11,966 - news_aggregator - INFO - Scraping الإصلاح نت at https://alislah.net/
+2025-04-05 14:47:12,227 - news_aggregator - INFO - Successfully scraped 0 articles from الإصلاح نت
+2025-04-05 14:47:17,228 - news_aggregator - INFO - Scraping الحرف 28 at https://alharf28.com/
+2025-04-05 14:47:18,195 - news_aggregator - INFO - Successfully scraped 0 articles from الحرف 28
+2025-04-05 14:47:23,196 - news_aggregator - INFO - News aggregation process completed
+2025-04-05 15:40:06,514 - news_aggregator - INFO - Database setup completed
+2025-04-05 15:40:06,516 - news_aggregator - INFO - Initialized 6 news sources
+2025-04-05 15:40:23,292 - news_aggregator - INFO - Starting news aggregation process
+2025-04-05 15:40:23,294 - news_aggregator - INFO - Scraping 24 بوست at https://www.24-post.com/
+2025-04-05 15:40:24,397 - news_aggregator - INFO - Successfully scraped 0 articles from 24 بوست
+2025-04-05 15:40:29,399 - news_aggregator - INFO - Scraping أنباء عدن at https://www.anbaaden.com/
+2025-04-05 15:40:29,958 - news_aggregator - INFO - Successfully scraped 0 articles from أنباء عدن
+2025-04-05 15:40:34,959 - news_aggregator - INFO - Scraping كريتر سكاي at https://cratersky.net/
+2025-04-05 15:40:36,231 - news_aggregator - INFO - Successfully scraped 41 articles from كريتر سكاي
+2025-04-05 15:40:36,259 - news_aggregator - INFO - Stored 41 new articles in database
+2025-04-05 15:40:41,260 - news_aggregator - INFO - Scraping نيوز لاين at https://newslineyemen.com/
+2025-04-05 15:40:41,375 - news_aggregator - ERROR - Error scraping نيوز لاين: HTTPSConnectionPool(host='newslineyemen.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001EDECF23750>: Failed to resolve 'newslineyemen.com' ([Errno 11001] getaddrinfo failed)"))
+2025-04-05 15:40:46,376 - news_aggregator - INFO - Scraping الإصلاح نت at https://alislah.net/
+2025-04-05 15:40:47,750 - news_aggregator - INFO - Successfully scraped 0 articles from الإصلاح نت
+2025-04-05 15:40:52,752 - news_aggregator - INFO - Scraping الحرف 28 at https://alharf28.com/
+2025-04-05 15:40:53,715 - news_aggregator - INFO - Successfully scraped 0 articles from الحرف 28
+2025-04-05 15:40:58,716 - news_aggregator - INFO - News aggregation process completed
+2025-04-05 16:10:15,869 - news_aggregator - INFO - Database setup completed
+2025-04-05 16:10:15,871 - news_aggregator - INFO - Initialized 6 news sources

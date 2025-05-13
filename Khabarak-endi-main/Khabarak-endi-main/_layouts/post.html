@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+  
+  <div class="post-meta">
+    Published on {{ page.date | date: "%B %d, %Y" }}
+  </div>
+  
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <div id="google_vignette" class="ad-container">
+    <!-- Ad content will load here -->
+  </div>
+</article>
+
+<script>
+// Ensure URL has the anchor
+if(!window.location.hash) {
+  history.replaceState(null, null, window.location.pathname + '#google_vignette');
+}
+</script>

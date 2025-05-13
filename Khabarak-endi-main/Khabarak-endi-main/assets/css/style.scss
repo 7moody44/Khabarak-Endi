@@ -1,0 +1,82 @@
+/* News Archive */
+.news-archive {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Tahoma', Arial, sans-serif;
+}
+
+.news-item {
+  margin-bottom: 30px;
+  
+  h2 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+  }
+  
+  .post-date {
+    color: #7f8c8d;
+    font-size: 0.9em;
+    margin-top: 0;
+  }
+}
+
+.news-divider {
+  border: 0;
+  height: 1px;
+  background: #ecf0f1;
+  margin: 20px 0;
+}
+
+/* RTL Pagination */
+.pagination {
+  text-align: center;
+  margin: 40px 0;
+  direction: rtl;
+  font-size: 1.1rem;
+
+  .page-nav, .page-num {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 2px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #2c3e50;
+  }
+
+  .page-nav:hover, .page-num:hover {
+    background: #f5f5f5;
+  }
+
+  .current-page {
+    background: #3498db;
+    color: white;
+    border-color: #3498db;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+}
+
+/* Footer Styles */
+.footer-bottom {
+  p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* RTL General Styles */
+[dir="rtl"] {
+  text-align: right;
+  
+  .news-item h2 {
+    text-align: right;
+  }
+}

@@ -1,0 +1,16 @@
+2025-04-02 15:50:41,213 - news_aggregator - INFO - Database setup completed
+2025-04-02 15:50:41,214 - news_aggregator - INFO - Initialized 6 news sources
+2025-04-05 13:50:48,907 - news_aggregator - INFO - Database setup completed
+2025-04-05 13:50:48,908 - news_aggregator - INFO - Initialized 6 news sources
+2025-04-05 14:10:33,859 - news_aggregator - INFO - Database setup completed
+2025-04-05 14:10:33,860 - news_aggregator - INFO - Initialized 6 news sources
+2025-04-05 14:16:30,482 - news_aggregator - INFO - Database setup completed
+2025-04-05 14:16:30,483 - news_aggregator - INFO - Initialized 6 news sources
+2025-04-05 14:16:30,485 - news_aggregator - INFO - Starting news aggregation process
+2025-04-05 14:16:50,140 - news_aggregator - INFO - Stored 41 new articles in database
+2025-04-05 14:17:11,794 - news_aggregator - INFO - News aggregation process completed
+2025-04-05 14:42:30,350 - news_aggregator - INFO - Database setup completed
+2025-04-05 14:42:30,351 - news_aggregator - INFO - Initialized 6 news sources
+2025-04-05 14:42:30,351 - news_aggregator - INFO - Starting news aggregation process
+2025-04-05 14:42:43,317 - news_aggregator - INFO - Stored 41 new articles in database
+2025-04-05 14:43:04,734 - news_aggregator - INFO - News aggregation process completed

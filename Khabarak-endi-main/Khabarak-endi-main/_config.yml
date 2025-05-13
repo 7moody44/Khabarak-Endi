@@ -1,0 +1,19 @@
+title: Khabarak Endi
+description: Yemeni News Source
+baseurl: "/khabarak-endi"
+url: "https://khabarakendi.github.io"
+lang: ar
+rtl: true
+
+theme: minima
+plugins:
+  - jekyll-paginate-v2
+
+paginate:
+  enabled: true
+  per_page: 100
+  permalink: '/news/page/:num/'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  collection: 'posts'

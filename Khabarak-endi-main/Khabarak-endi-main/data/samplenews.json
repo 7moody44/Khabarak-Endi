@@ -1,0 +1,24 @@
+{
+  "articles": [
+    {
+      "title": "عاجل: انفجار يهز العاصمة صنعاء",
+      "url": "https://example.com/article1",
+      "breaking": true
+    },
+    {
+      "title": "الرئيس يعلن عن تشكيل حكومة جديدة",
+      "url": "https://example.com/article2",
+      "breaking": true
+    },
+    {
+      "title": "انخفاض كبير في أسعار الوقود هذا الأسبوع",
+      "url": "https://example.com/article3",
+      "breaking": true
+    },
+    {
+      "title": "قافلة مساعدات إنسانية تصل إلى تعز",
+      "url": "https://example.com/article4",
+      "breaking": false
+    }
+  ]
+}

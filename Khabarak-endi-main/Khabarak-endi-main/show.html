@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loading Article...</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header><!-- Your site header --></header>
+    
+    <div id="article-container">
+        <!-- Article will be loaded here -->
+        <div class="loading">Loading article...</div>
+    </div>
+    
+    <footer><!-- Your site footer --></footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Get article ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const articleId = urlParams.get('id');
+        
+        // Load the article
+        if (articleId) {
+            loadArticle(articleId);
+        }
+    </script>
+</body>
+</html>

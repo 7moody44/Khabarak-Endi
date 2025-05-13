@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel | Khabarak Endi</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h1>Add Custom News</h1>
+        <form id="news-form">
+            <input type="text" id="title" placeholder="Headline (Arabic/English)" required>
+            <input type="url" id="url" placeholder="Article URL" required>
+            <select id="category">
+                <option value="general">General</option>
+                <option value="local">Local</option>
+                <option value="sports">Sports</option>
+            </select>
+            <button type="submit">Publish Now</button>
+        </form>
+    </div>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>

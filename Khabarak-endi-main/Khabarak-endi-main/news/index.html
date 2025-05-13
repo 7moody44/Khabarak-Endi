@@ -1,0 +1,48 @@
+---
+layout: default
+title: الأرشيف
+pagination:
+  enabled: true
+  collection: posts
+  per_page: 100
+  permalink: '/page/:num/'
+  sort_field: 'date'
+  sort_reverse: true
+---
+<div dir="rtl" class="news-archive">
+  <h1>أرشيف الأخبار</h1>
+  
+  {% for post in paginator.posts %}
+    <article class="news-item">
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
+      <div class="post-excerpt">
+        {{ post.excerpt | default: post.content }}
+      </div>
+    </article>
+    <hr class="news-divider">
+  {% endfor %}
+
+  <!-- Numbered Pagination -->
+  <div class="pagination">
+    {% if paginator.total_pages > 1 %}
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="page-nav">« السابق</a>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <span class="current-page">{{ page }}</span>
+        {% elsif page == 1 %}
+          <a href="{{ '/news/' | relative_url }}" class="page-num">{{ page }}</a>
+        {% else %}
+          <a href="{{ site.paginate_path | replace: ':num', page | relative_url }}" class="page-num">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="page-nav">التالى »</a>
+      {% endif %}
+    {% endif %}
+  </div>
+</div>

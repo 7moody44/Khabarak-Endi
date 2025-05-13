@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قصة نجاح | خبرك عندي</title>
+    <style>
+        /* Header Styles */
+        #site-header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        
+        .header-top {
+            padding: 15px;
+            background: #2c3e50;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .red { color: #e74c3c; }
+        .green { color: #2ecc71; }
+        
+        .datetime {
+            font-size: 0.9rem;
+        }
+        
+        .categories ul {
+            display: flex;
+            list-style: none;
+            background: #34495e;
+            padding: 0 15px;
+        }
+        
+        .categories li a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 15px;
+            display: block;
+            transition: background 0.3s;
+        }
+        
+        .categories li a:hover {
+            background: #e74c3c;
+        }
+
+        /* Article Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f5f5f5;
+            padding-top: 120px;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .article-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .article-header {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+        
+        .article-title {
+            color: #e74c3c;
+            margin-bottom: 10px;
+        }
+        
+        .article-meta {
+            color: #777;
+            font-size: 0.9rem;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .article-content {
+            padding: 20px 0;
+        }
+        
+        .article-content p {
+            margin-bottom: 15px;
+        }
+        
+        .article-image {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background: #e74c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding-top: 160px;
+            }
+            
+            .article-container {
+                padding: 20px;
+            }
+            
+            .categories ul {
+                flex-wrap: wrap;
+            }
+            
+            .categories li a {
+                padding: 8px 10px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Website Header -->
+    <header id="site-header">
+        <div class="header-top">
+            <div class="logo" onclick="window.location.href='../index.html'">
+                <span class="red">خبرك</span>
+                <span class="green">عندي</span>
+            </div>
+            <div class="datetime" id="current-datetime">
+                جاري التحميل...
+            </div>
+        </div>
+        
+        <!-- Navigation -->
+        <nav class="categories">
+            <ul>
+                <li><a href="../index.html">الرئيسية</a></li>
+                <li><a href="../private.html">خاصة</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Article Content -->
+    <div class="article-container">
+        <header class="article-header">
+            <h1 class="article-title">قصة نجاح</h1>
+            <div class="article-meta">
+                <span class="source">خاص</span>
+                <span class="date">16 أبريل 2025</span>
+            </div>
+        </header>
+        
+        <div class="article-content">
+            <!-- Article image -->
+            <img src="../images/article1.jpg" alt="صورة طائر الكوكتيل اثناء معاناته" class="article-image">
+            <p style="text-align: center; font-style: italic; color: #777;">صورة طائر الكوكتيل - كوكو</p>
+            
+            <!-- Article content -->
+            <p>فيما يلي سأتلو عليكم قصة نجاح عصفور كان محبوسا في قفص لمدة عام ونيف وانتهى به المطاف إلى أن حرر نفسه من القفص.</p>
+            
+            <p>من هنا بدأت المغامرات عندما هم الطير بأن يصمد أمام معضلات الحياة.</p>
+            
+            <p>يمكنك أيضا إضافة قوائم أو عناصر أخرى:</p>
+            <ul style="margin-right: 20px; margin-bottom: 15px;">
+                <li>نقطة أولى</li>
+                <li>نقطة ثانية</li>
+                <li>نقطة ثالثة</li>
+            </ul>
+            
+            <p>أو إضافة اقتباسات:</p>
+            <blockquote style="border-right: 3px solid #e74c3c; padding-right: 15px; margin: 15px 0; color: #555;">
+                هذا اقتباس مهم من أحد المسؤولين عن الموضوع.
+            </blockquote>
+        </div>
+        
+        <a href="../private.html" class="back-button">العودة إلى قسم الأخبار الخاصة</a>
+    </div>
+
+    <!-- JavaScript for Date/Time -->
+    <script>
+        function updateDateTime() {
+            const now = new Date();
+            const options = { 
+                weekday: 'long', 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            };
+            const dateStr = now.toLocaleDateString('ar-EG', options)
+                .replace(/،/g, ' - ')
+                .replace(/ص/g, 'ص')
+                .replace(/م/g, 'م');
+            
+            document.getElementById('current-datetime').textContent = dateStr;
+        }
+        updateDateTime();
+        setInterval(updateDateTime, 60000);
+    </script>
+</body>
+</html>
