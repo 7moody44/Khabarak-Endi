@@ -9,9 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vite": "^5.0.0",
-    "@google-cloud/storage": "^7.7.0",
-    "dotenv": "^16.3.1"
+    "vite": "^5.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0"
