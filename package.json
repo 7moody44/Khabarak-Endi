@@ -1,0 +1,17 @@
+{
+  "name": "khabarak-endi",
+  "version": "1.0.0",
+  "description": "Yemeni News Aggregator Website",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0"
+  }
+}
