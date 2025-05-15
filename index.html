@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خبرك عندي - Yemen News</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="site-header">
+        <div class="header-top">
+            <div class="logo" onclick="window.location.href='/'">
+                <span class="red">خبرك</span>
+                <span class="green">عندي</span>
+            </div>
+            <div class="datetime" id="current-datetime">
+                جاري التحميل...
+            </div>
+        </div>
+        
+        <nav class="categories">
+            <ul>
+                <li><a href="#" class="active" data-category="all">الرئيسية</a></li>
+                <li><a href="#" data-category="old">الأخبار القديمة</a></li>
+                <li><a href="#" data-category="local">محلية</a></li>
+                <li><a href="private.html" data-category="private">خاصة</a></li>
+                <li><a href="#" data-category="sports">رياضة</a></li>
+                <li><a href="#" data-category="economic">اقتصادية</a></li>
+                <li><a href="#" data-category="international">دولية</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <div class="news-filters">
+            <input type="text" id="news-search" placeholder="ابحث في الأخبار...">
+            <select id="news-sort">
+                <option value="newest">الأحدث أولاً</option>
+                <option value="oldest">الأقدم أولاً</option>
+                <option value="random">عشوائي</option>
+            </select>
+        </div>
+        
+        <div class="news-container" id="news-container">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>جاري تحميل الأخبار...</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
